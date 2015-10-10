@@ -5,13 +5,8 @@
   {registered, []},
   {applications, [
                   kernel,
-                  stdlib,
-                  crypto,
-                  lager,
-                  eleveldb,
-                  riak_dt
+                  stdlib
                  ]},
   {modules, []},
-  {env, [
-         {plumtree_data_dir, "data"}]}
+  {env, []}
  ]}.
