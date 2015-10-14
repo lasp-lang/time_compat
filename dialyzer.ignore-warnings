@@ -1,0 +1,12 @@
+time_compat.erl:64: Call to missing or unexported function erlang:monotonic_time/0
+time_compat.erl:73: Call to missing or unexported function erlang:monotonic_time/1
+time_compat.erl:89: Call to missing or unexported function erlang:system_time/0
+time_compat.erl:97: Call to missing or unexported function erlang:system_time/1
+time_compat.erl:112: Call to missing or unexported function os:system_time/0
+time_compat.erl:120: Call to missing or unexported function os:system_time/1
+time_compat.erl:135: Call to missing or unexported function erlang:time_offset/0
+time_compat.erl:145: Call to missing or unexported function erlang:time_offset/1
+time_compat.erl:162: Call to missing or unexported function erlang:convert_time_unit/3
+time_compat.erl:177: Call to missing or unexported function erlang:timestamp/0
+time_compat.erl:185: Call to missing or unexported function erlang:unique_integer/0
+time_compat.erl:194: Call to missing or unexported function erlang:unique_integer/1
