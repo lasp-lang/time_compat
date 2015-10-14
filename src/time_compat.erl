@@ -59,6 +59,20 @@
 	 system_info/1,
 	 system_flag/2]).
 
+-ignore_xref([{os, system_time, 0},
+              {os, system_time, 1},
+              {erlang, timestamp, 0},
+              {erlang, system_time, 0},
+              {erlang, system_time, 1},
+              {erlang, time_offset, 0},
+              {erlang, time_offset, 1},
+              {erlang, monotonic_time, 0},
+              {erlang, monotonic_time, 1},
+              {erlang, unique_integer, 0},
+              {erlang, unique_integer, 1},
+              {erlang, convert_time_unit, 3}
+            ]).
+
 monotonic_time() ->
     try
 	erlang:monotonic_time()
